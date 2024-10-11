@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: url(img/fondo.jpg);
+}
+#contenedor{
+    width:60%;    
+    margin: 25px auto;    
+    padding: 10px;
+   
+}
+
+#demo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    
+}
+#cabecera{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.menu ul li{
+    padding: 15px;
+}
+.menu li a{
+    font-size: 20px;
+  padding:5px;  
+  color: #7a4108;
+  text-decoration: none;
+}
+.menu li a:hover{
+    color: rgb(255, 251, 251);
+}
+#redondeo{
+    border: 2px solid rgb(253, 252, 247);
+    border-radius: 20px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+
+}
+#cinco{
+     background-color: rgb(183, 160, 138);
+     border-radius: 20px;
+     height: 10px;
+     display: flex;
+     align-items: center;
+}
+#cinco:hover{
+    background-color: saddlebrown;
+    border-radius: 20px;
+   
+}
+
+#contenido{
+    margin: 20px;
+}
+.caja{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.unidad{
+    text-align: center;
+    width:60%;       
+    padding: 10px;
+}
+
+#secum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px;  
+
+}
+ #secum ul{
+
+    display: flex;
+    list-style-type: none;
+
+ }
+ #secum ul li{
+    padding: 15px;
+}
+#secum li a{
+    font-size: 20px;
+  padding:5px;  
+  color: #7a4108;
+  text-decoration: none;
+}
+#secum li a:hover{
+    color: aliceblue;
+}
+.cuatro{
+    background-color: rgb(199, 188, 139);
+   margin: auto;
+   height: 340px;
+   width: 450px;
+}
+.tres{
+    background-color: cornflowerblue;
+    height: 450px;
+    width: 455px;
+   
+ }
+
+h1,h2{
+    color: rgb(9, 49, 28);
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 p{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: darkolivegreen;
+   border-radius: 20px;
+   height: 60px;
+   margin: 50px;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+}
+h3 p:hover{
+ background-color:rgb(194, 209, 117);
+ color:rgb(27, 59, 5);
+
+
+}
+
+
